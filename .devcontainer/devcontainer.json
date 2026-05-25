@@ -1,0 +1,12 @@
+{
+  "name": "Il mio Lab",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+
+  "features": {
+    // Installa Node.js versione 24
+    "ghcr.io/devcontainers/features/node:1": { "version": "24" },
+
+    // Installa Docker-in-Docker (per usare docker dentro il container)
+    "ghcr.io/devcontainers/features/docker-in-docker:2": { "moby": false }
+  }
+}
